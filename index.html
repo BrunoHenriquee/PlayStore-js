@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>PlayStore</title>
+</head>
+<body>
+    <div class="cabeçalho">
+        <h3 class="playstore">Playstore</h3>
+        <h3 class="saldo">Seu saldo: <a id="show-value"></a></h3>  
+        <p>&#128722;</p>
+</div>
+<hr>
+
+<h1 class="titulo">Informe seu saldo</h1>
+    <div class="container-saldo">
+        <input class="input-saldo" id="input" type="number" placeholder="Seu saldo">
+        <button onclick="showSaldo()" id="button" class="button-saldo" >Confirmar</button>
+    </div>
+
+    <div class="catalogoItens">
+        <h2 class="catalogo">Catálogo:</h2>
+
+        <p><a id="show-items"></a> itens</p>
+    </div>
+    <div id="produtos">
+
+    </div>
+    <div class="carrinho">
+        <h2 class="carrinhoTittle">Carrinho:</h2>
+    
+        <div id="carrinho">
+
+        </div>
+
+        <button class="carrinhoBotao" onclick="compraItems()" id="buttonCarrinho">Comprar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

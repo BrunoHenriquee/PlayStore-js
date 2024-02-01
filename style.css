@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.cabeçalho{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.playstore{
+    font-size: 20px;
+    margin-right: 1200px;
+    font-family: 'Press Start 2P', system-ui;
+}
+
+.container-saldo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.input-saldo{
+    width: 100px;
+    height: 20px;
+}
+
+.titulo {
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 30px; 
+}
+
+.carrinho {
+    margin-top: 50px;
+    margin-left: 93px;
+}
+
+.carrinhoTittle {
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 23px;
+}
+
+.carrinhoBotao {
+    width: 160px;
+    height: 40px;
+    font-size: 1.4rem;  
+    color: #000000;
+    border: solid 1.5px #000000;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 0 3px black;
+}
+
+.catalogoItens {
+    margin-left: 93px;
+}
+
+.catalogo {
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 20px;
+}
+
+.imagens{
+    max-width: 250px;
+    max-height: 225px;
+}
+
+.produto-single{
+    width: 400px
+}
+
+#produtos {
+    margin-top: 50px;
+    max-width: 5349px;
+    padding: 0px 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+
